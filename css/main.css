@@ -1,0 +1,113 @@
+* {
+  font-size: 20px;
+}
+.ui_list {
+  margin-top: 4em;
+}
+.ui_list .introduction {
+  margin: 1em 0;
+  padding: 2em 1em .5em .5em;
+}
+.ui_list .introduction h1 {
+  font-size: 3em;
+  font-weight: 600;
+  font-style: italic;
+  color: #333;
+}
+.ui_list .introduction h1 small {
+  color: #2e2e2e;
+  font-weight: 600;
+}
+.ui_list .introduction p {
+  color: #555;
+}
+.ui_list .u_list {
+  overflow: hidden;
+  margin: 1em 0;
+  padding: .5em;
+}
+.ui_list .u_list:before {
+  content: ' ';
+  display: block;
+  margin: 1em 0;
+  border-top: 5px solid #555;
+}
+.ui_list .u_list:hover h3 {
+  color: #ff6d00;
+}
+.ui_list .ui_days {
+  display: block;
+  float: left;
+  border: 1px solid #555;
+  padding: .5em 0;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+.ui_list .ui_title {
+  display: block;
+  float: left;
+  padding-left: .5em;
+  margin-top: .5em;
+}
+.ui_list img {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: transform .5s, opacity .5s;
+  opacity: 1;
+}
+.ui_list img:hover {
+  background: #fff;
+  transform: scale(1.15);
+  opacity: 0.6;
+  cursor: pointer;
+}
+footer {
+  background: #333;
+  color: #999;
+  margin-top: 1em;
+  padding: 2em 0;
+}
+footer p {
+  font-size: .8em;
+  line-height: 2em;
+}
+footer a:link {
+  font-size: .8em;
+  color: #943b00;
+}
+footer a:hover {
+  color: #d35400;
+  text-decoration: none;
+}
+.navbar-default {
+  background: #3b3b3b;
+  color: #fff;
+  border: 0;
+  padding: .8em 0;
+  box-shadow: 0 5px 6px #999;
+}
+.navbar-default .navbar-brand {
+  font-size: 1.5em;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: .8em;
+}
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited {
+  color: #999;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #be4c00;
+}
+.navbar-default .navbar-nav > li > a i.fa {
+  font-size: 1.1em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}

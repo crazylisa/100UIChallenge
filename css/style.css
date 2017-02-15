@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+body {
+  margin: 0 auto;
+}
+.main {
+  margin: 0 auto;
+}
+.self-intro {
+  height: 300px;
+}
+.self-intro h1 {
+  color: #999;
+}
+.ui_item {
+  display: block;
+  float: left;
+  border: 1px solid #999;
+}
+.ui_item .ui_days {
+  font-size: 1em;
+  color: #999999;
+  display: block;
+  float: left;
+  margin: 1em;
+  padding: .5em;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+.ui_item .ui_title {
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  float: left;
+  margin: .8em .2em;
+}
+.ui_item .ui_img {
+  width: 100%;
+  height: auto;
+}
